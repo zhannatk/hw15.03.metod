@@ -14,6 +14,7 @@ public class Main {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
                 break;
             case 2:
+
                 System.out.println("Установите версию приложения для iOS по ссылке");
                 break;
             case 3:
