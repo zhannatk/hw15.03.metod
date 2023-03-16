@@ -36,14 +36,14 @@ public class Main {
     }
 
 
-    public static int checkLeapYear(int year) { // задача 1
+    public static void checkLeapYear(int year) { // задача 1
 
         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-            System.out.println(year + " год является высокосным");
+            System.out.println(year + " год является високосным");
         } else {
-            System.out.println(year + " год не является высокосным");
+            System.out.println(year + " год не является високосным");
         }
-        return year;
+
     }
 
 
@@ -75,7 +75,7 @@ public class Main {
             System.out.println("Потребуется дней: " + deliveryDays + " срок доставки.");
         }
 
-        return deliveryDistance;
+        return deliveryDays;
     }
 }
 
